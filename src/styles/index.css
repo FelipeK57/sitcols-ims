@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Inter Variable', sans-serif;
-  @apply bg-neutral-50 text-neutral-950;
+  @apply bg-white text-black;
 }
 
 :root {

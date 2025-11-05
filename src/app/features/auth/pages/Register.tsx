@@ -3,8 +3,8 @@ import { Link } from "react-router";
 
 export const Register = () => {
   return (
-    <main className="flex flex-col min-h-svh w-full ">
-      <article className="flex items-center justify-start px-6 py-4">
+    <main className="flex flex-col min-h-svh w-full">
+      <article className="flex items-center justify-start p-6">
         <img src="/sitcols-logo.svg" alt="Sitcols Logo" className="h-8" />
       </article>
       <main className="flex flex-1 flex-col gap-4 justify-center max-w-sm mx-auto">
@@ -40,10 +40,7 @@ export const Register = () => {
         <Divider />
         <p className="text-sm text-center text-default-700">
           ¿Ya tienes una cuenta?{" "}
-          <Link
-            to="/login"
-            className="text-primary font-medium underline"
-          >
+          <Link to="/login" className="text-primary font-medium underline">
             Inicia sesión
           </Link>
         </p>

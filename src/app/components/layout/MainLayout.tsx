@@ -1,11 +1,17 @@
 import { Outlet } from "react-router";
-import { Navbar } from "../shared/Navbar";
+import { Sidebar } from "../shared/Sidebar";
+import { Header } from "../shared/Header";
 
 export const MainLayout = () => {
   return (
-    <>
-      <Navbar />
-      <Outlet />
-    </>
+    <main className="flex flex-row h-svh">
+      <Sidebar />
+      <section className="flex-1 flex flex-col">
+        <Header />
+        <div className="flex-1 overflow-y-auto p-4">
+          <Outlet />
+        </div>
+      </section>
+    </main>
   );
 };
