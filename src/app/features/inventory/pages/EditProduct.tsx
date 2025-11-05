@@ -19,7 +19,6 @@ export const EditProduct = () => {
 
   useEffect(() => {
     const pathSegments = location.pathname.split("/");
-    console.log(pathSegments);
     const productId = pathSegments[pathSegments.length - 1];
     const foundProduct = listProducts.find(
       (item) => item.id.toString() === productId
