@@ -3,7 +3,7 @@ import { Inbox } from "lucide-react";
 import { Breadcrumbs, BreadcrumbItem } from "@heroui/react";
 import { Link, useLocation } from "react-router";
 import { useEffect, useState } from "react";
-import { modules } from "./Sidebar";
+import { modules } from "../layout/Sidebar";
 import { findRouteName } from "@/app/lib/helpers/findRouteName";
 
 export const Header = () => {

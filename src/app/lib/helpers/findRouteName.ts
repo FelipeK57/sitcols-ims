@@ -1,5 +1,5 @@
 // src/helpers/findRouteName.ts
-import { modules } from "@/app/components/shared/Sidebar";
+import { modules } from "@/app/components/layout/Sidebar";
 
 export const findRouteName = (pathSegment: string): string | null => {
   const search: any = (routes: any) => {
